@@ -63,6 +63,13 @@ nav {
     box-sizing: border-box;
 }
 
+.navbar .nav-link:visited{
+    font-size: 18px;
+    color: rgb(230, 217, 28) !important;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
 .navbar-nav li {
     margin-right: 15px;
 }
