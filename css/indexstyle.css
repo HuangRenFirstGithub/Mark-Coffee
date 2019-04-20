@@ -1,0 +1,73 @@
+/* header加上底色 */
+
+header {
+    background-color: rgb(255, 255, 255);
+}
+
+/* 更改 Logo樣式 */
+
+header h1 {
+    font-weight: bolder;
+    font-size: 30px;
+    color: rgb(138, 29, 5);
+    border: 5px groove rgb(138, 29, 5);
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+header h1:hover {
+    color: rgb(20, 179, 241);
+    border: 5px groove rgb(20, 179, 241);
+}
+
+/* 更改漢堡選單樣式 */
+
+.navbar-light .navbar-toggler {
+    background-image: linear-gradient(to top, rgb(255, 183, 0), rgb(255, 233, 161));
+    border: 1px solid rgb(99, 39, 4);
+}
+
+.navbar-toggler:hover {
+    background-image: linear-gradient(to bottom, rgb(255, 183, 0), rgb(255, 233, 161));
+}
+
+/* 更改導覽列底色 */
+
+nav {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+/* 更改ul清單文字置中,並在導覽列中置中對齊 */
+
+.navbar-nav {
+    margin-left: 0 auto;
+}
+
+/* 更改導覽列中超連結的樣式 */
+
+.navbar-nav .nav-link {
+    display: block;
+    font-size: 16px;
+    color: rgb(40, 40, 40) !important;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.navbar .nav-link:hover {
+    background-color: rgb(106, 25, 0);
+    border: 5px solid rgb(79, 79, 79);
+    font-size: 18px;
+    color: rgb(255, 255, 255) !important;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.navbar-nav li {
+    margin-right: 15px;
+}
+
+.nav-item .dropdown-menu a {
+    text-align: center;
+    color: deeppink;
+}
