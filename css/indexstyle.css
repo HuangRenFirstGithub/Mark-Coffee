@@ -1,7 +1,7 @@
 /* header加上底色 */
 
 header {
-    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(to top, #ffc107, #fce396);
 }
 
 /* 更改 Logo樣式 */
@@ -9,8 +9,8 @@ header {
 header h1 {
     font-weight: bolder;
     font-size: 30px;
-    color: rgb(138, 29, 5);
-    border: 5px groove rgb(138, 29, 5);
+    color: rgb(0, 0, 0);
+    border: 5px groove rgb(0, 0, 0);
     padding: 5px;
     box-sizing: border-box;
 }
@@ -23,18 +23,18 @@ header h1:hover {
 /* 更改漢堡選單樣式 */
 
 .navbar-light .navbar-toggler {
-    background-image: linear-gradient(to top, rgb(255, 183, 0), rgb(255, 233, 161));
+    background-image: linear-gradient(to top, rgba(104, 12, 2, 0.8), rgba(104, 12, 2, 0.5));
     border: 1px solid rgb(99, 39, 4);
 }
 
 .navbar-toggler:hover {
-    background-image: linear-gradient(to bottom, rgb(255, 183, 0), rgb(255, 233, 161));
+    background-image: linear-gradient(to bottom, rgba(104, 12, 2, 0.8), rgba(104, 12, 2, 0.5));
 }
 
 /* 更改導覽列底色 */
 
 nav {
-    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(to top, #ffc107, #fce396);
     text-align: center;
 }
 
@@ -42,39 +42,75 @@ nav {
 
 .navbar-nav {
     margin-left: 0 auto;
+    box-sizing: border-box;
 }
 
 /* 更改導覽列中超連結的樣式 */
 
-.navbar-nav .nav-link {
+.navbar-nav .nav-link:link {
     display: block;
-    font-size: 16px;
-    color: rgb(40, 40, 40) !important;
-    padding: 20px;
+    color: rgb(0, 0, 0) !important;
+    /* font-size: 17px; */
+    padding: 10px;
     box-sizing: border-box;
 }
 
-.navbar .nav-link:hover {
-    background-color: rgb(106, 25, 0);
-    border: 5px solid rgb(79, 79, 79);
-    font-size: 18px;
+.navbar-nav .nav-link:hover {
+    background-color: rgb(152, 35, 0);
     color: rgb(255, 255, 255) !important;
-    padding: 20px;
+    /* font-size: 17px; */
+    padding: 10px;
     box-sizing: border-box;
 }
 
-.navbar .nav-link:visited{
-    font-size: 18px;
-    color: rgb(230, 217, 28) !important;
-    padding: 20px;
+.navbar-nav .nav-link:active {
+    background-color: rgb(152, 35, 0);
+    color: rgb(98, 255, 25) !important;
+    /* font-size: 17px; */
+    padding: 10px;
     box-sizing: border-box;
 }
+
+/* 讓導覽列清單距離右邊１０像素 */
 
 .navbar-nav li {
-    margin-right: 15px;
+    margin-right: 10px;
 }
 
-.nav-item .dropdown-menu a {
+/* 更改下拉式選單背景色,並讓文字居中 */
+
+.navbar .dropdown-menu {
     text-align: center;
-    color: deeppink;
+    background-color: #FFE388;
+}
+
+/* 更改下拉式文字顏色,並讓區塊距離左右５像素 */
+
+.navbar .dropdown-item {
+    color: #FF00FF;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* 更改下拉式文字滑過的背景色 */
+
+.navbar .dropdown-item:hover {
+    background-color: #E5D200;
+}
+
+/* 更改輪播動畫箭頭大小 */
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 60px;
+    height: 60px;
+}
+
+/* 更改輪播動畫箭頭樣式 */
+
+.carousel-control-prev-icon {
+    background-image: url("../images/Prev.svg");
+}
+
+.carousel-control-next-icon {
+    background-image: url("../images/Next.svg");
 }
