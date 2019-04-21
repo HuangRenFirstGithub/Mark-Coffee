@@ -1,0 +1,19 @@
+Bootstrap 4 Grid Template for Photoshop, by Dan Rodney
+
+---------------------------------------
+Support Dan
+---------------------------------------
+Show Dan some love by donating at: danrodney.com/blog/photoshop-bootstrap4-grid
+
+
+---------------------------------------
+Tips for Using the File
+---------------------------------------
+- To change the column shading color, double-click on the "columns" layer thumbnail.
+- To hide or show the column and gutter guides, hit Cmd–; (Mac) or Ctrl–; (Windows) or choose "View > Show > Guides".
+
+
+---------------------------------------
+Which Size to Choose: 1x or 2x (Retina)
+---------------------------------------
+I've included 1x and 2x versions of the template so you're free to choose whichever you want. While many designers work at 1x, I think a more modern workflow is to work at 2x (Retina) size. Working at either size has drawbacks, but I recommend 2x. To learn why, visit https://www.danrodney.com/blog/designing-retina-web-graphics-in-photoshop-should-you-work-at-1x-or-2x/
