@@ -48,7 +48,7 @@ nav {
 /* 更改導覽列中超連結的樣式 */
 
 .navbar-nav .nav-link:link {
-    display: block;
+    /* display: block; */
     color: rgb(0, 0, 0) !important;
     /* font-size: 17px; */
     padding: 10px;
