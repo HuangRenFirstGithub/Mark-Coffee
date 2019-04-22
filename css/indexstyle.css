@@ -8,7 +8,7 @@ header {
 
 header h1 {
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 20px;
     color: rgb(0, 0, 0);
     border: 5px groove rgb(0, 0, 0);
     padding: 5px;
@@ -38,10 +38,10 @@ nav {
     text-align: center;
 }
 
-/* 更改ul清單文字置中,並在導覽列中置中對齊 */
+/* 更改選單在導覽列中置中對齊 */
 
 .navbar-nav {
-    margin-left: 0 auto;
+    margin: 0 auto;
     box-sizing: border-box;
 }
 
@@ -50,31 +50,31 @@ nav {
 .navbar-nav .nav-link:link {
     /* display: block; */
     color: rgb(0, 0, 0) !important;
-    /* font-size: 17px; */
-    padding: 10px;
+    font-size: 17px;
+    padding: 15px;
     box-sizing: border-box;
 }
 
 .navbar-nav .nav-link:hover {
     background-color: rgb(152, 35, 0);
     color: rgb(255, 255, 255) !important;
-    /* font-size: 17px; */
-    padding: 10px;
+    font-size: 17px;
+    padding: 15px;
     box-sizing: border-box;
 }
 
 .navbar-nav .nav-link:active {
     background-color: rgb(152, 35, 0);
     color: rgb(98, 255, 25) !important;
-    /* font-size: 17px; */
-    padding: 10px;
+    font-size: 17px;
+    padding: 15px;
     box-sizing: border-box;
 }
 
 /* 讓導覽列清單距離右邊１０像素 */
 
 .navbar-nav li {
-    margin-right: 10px;
+    margin-right: 15px;
 }
 
 /* 更改下拉式選單背景色,並讓文字居中 */
