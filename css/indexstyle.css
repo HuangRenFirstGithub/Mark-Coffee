@@ -1,5 +1,12 @@
+/* 載入字型 */
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,400,500,700,900&subset=chinese-traditional");
+body{
+    font-family: "Noto Sans TC", sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 100;
+}
 /* header加上底色 */
-
 header {
     background-image: linear-gradient(to top, #ffc107, #fce396);
 }
@@ -47,10 +54,11 @@ nav {
 
 /* 更改導覽列中超連結的樣式 */
 
-.navbar-nav .nav-link:link {
+.navbar-nav .nav-link {
     /* display: block; */
     color: rgb(0, 0, 0) !important;
     font-size: 17px;
+    font-weight:  500;
     padding: 20px;
     box-sizing: border-box;
 }
@@ -58,20 +66,24 @@ nav {
 .navbar-nav .nav-link:hover {
     background-color: rgb(152, 35, 0);
     font-size: 17px;
+    font-weight:  500;
     color: rgb(255, 255, 255) !important;
     padding: 20px;
     box-sizing: border-box;
 }
 
-.navbar-nav .nav-link:active {
-    background-color: rgb(152, 35, 0);
-    color: rgb(98, 255, 25) !important;
+/* 讓超連結停留在頁面時,出現反白提示 */
+.navbar-nav .active {
+    background-color: rgb(80, 80, 80);
     font-size: 17px;
+    font-weight:  500;
+    color: rgb(255, 255, 255) !important;
     padding: 20px;
     box-sizing: border-box;
 }
 
-/* 讓導覽列清單距離右邊１０像素 */
+
+/* 讓每個導覽列清單距離右邊15像素 */
 
 .navbar-nav li {
     margin-right: 15px;
@@ -114,3 +126,14 @@ nav {
 .carousel-control-next-icon {
     background-image: url("../images/Next.svg");
 }
+
+/* 改變輪播動畫中,描述文字給予漸層色 */
+.carousel-caption{
+    background: rgb(0,0,0);
+    background: -moz-linear-gradient(45deg, rgba(0,0,0,0) 0%, rgba(0,38,46,0.75) 30%, rgba(0,0,0,0.75) 70%, rgba(0,0,0,0) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(0,0,0,0) 0%, rgba(0,38,46,0.75) 30%, rgba(0,0,0,0.75) 70%, rgba(0,0,0,0) 100%);
+    background: linear-gradient(45deg, rgba(0,0,0,0) 0%, rgba(0,38,46,0.75) 30%, rgba(0,0,0,0.75) 70%, rgba(0,0,0,0) 100%);
+    /* 舊版IE */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+}
+
