@@ -49,7 +49,6 @@ nav {
 
 .navbar-nav {
     margin: 0 auto;
-    box-sizing: border-box;
 }
 
 /* 更改導覽列中超連結的樣式 */
@@ -137,3 +136,24 @@ nav {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
 }
 
+/* 產品介紹 */
+.product1BG{
+    background-image: url(../images/product-01.jpg);
+}
+.product2BG{
+    background-image: url(../images/product-02.jpg);
+}
+.product3BG{
+    background-image: url(../images/product-03.jpg);
+}
+.product4BG{
+    background-image: url(../images/product-04.jpg);
+}
+.bg-images{
+    background-size: cover; /* 調整背景圖大小 圖片隨畫面縮放 放大會失真 */
+    background-position: center center; /* 調整背景圖顯示位置 水平和垂直居中 */
+}
+/* 撐開文字距離 */
+.text-content{
+    padding: 30px;
+}
