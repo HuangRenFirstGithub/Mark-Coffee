@@ -22,10 +22,7 @@ header h1 {
     box-sizing: border-box;
 }
 
-header h1:hover {
-    color: rgb(20, 179, 241);
-    border: 5px groove rgb(20, 179, 241);
-}
+
 
 /* 更改漢堡選單樣式 */
 
@@ -135,7 +132,26 @@ nav {
     /* 舊版IE */
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
 }
+/*  咖啡館照片底圖 */
+section.sectionBG{
+    background-image: url("../images/Coffee-section-BG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
 
+}
+section.sectionBG:hover{
+    background-image: url("../images/Coffee-section-BG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+
+}
+#sectionh2{
+    text-align: center;
+    color: #ffffff;
+    background-color: #000000;
+}
 /* 產品介紹 */
 .product1BG{
     background-image: url(../images/product-01.jpg);
