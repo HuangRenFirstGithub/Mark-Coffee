@@ -1,9 +1,14 @@
 /* 載入字型 */
 
-@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,400,500,700,900&subset=chinese-traditional");
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+@import url('https://fonts.googleapis.com/css?family=Muli:300i,400,400i,600,600i,700,700i,800,800i,900,900i|Noto+Sans+TC:400,500,700,900|Noto+Serif+SC:300,400,500,600,700,900|Noto+Serif+TC:300,400,500,600,700,900|Open+Sans:300i,400,400i,600,600i,700,700i,800,800i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i,900,900i');
 body {
-    font-family: "Open Sans", "Noto Sans TC", sans-serif;
+    font-family: 'Noto Serif TC', serif;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Muli', sans-serif;
+    font-family: 'Noto Serif SC', serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -22,7 +27,7 @@ header h1 {
     font-weight: bolder;
     font-size: 20px;
     color: rgb(0, 0, 0);
-    border: 5px groove rgb(0, 0, 0);
+    border: 5px solid rgb(0, 0, 0);
     padding: 5px;
     box-sizing: border-box;
 }
@@ -226,8 +231,7 @@ section.sectionBG:hover {
     background-image: url(../images/sectionBG2.jpg);
 }
 
-/* 改變section中標題三字型大小 */
-
+/* 改變section中標題三字型大小 和背景顏色 */
 .sectionh3 {
     font-size: 3rem;
     background: rgb(0, 0, 0);
