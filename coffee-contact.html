@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Mark咖啡官網-最新消息頁面</title>
+    <title>Mark咖啡官網-聯絡我們頁面</title>
     <meta name="description" content="Mark-Coffee提供高品質的咖啡與服務以及莊園級精品咖啡豆或單品咖啡豆，我們除了義式壓縮也提供手沖咖啡，搭配獨特的空間設計理念，提供你一個品嚐咖啡的一個好去處。">
     <meta name="keywords" content="咖啡,精品咖啡,莊園咖啡,紅茶,高品質咖啡豆,甜點,簡餐,最新消息頁面,Mark咖啡官網,聯絡我們頁面">
     <link rel="icon" type="image/png" href="images/coffee-bean-icon.png">
@@ -17,14 +17,14 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/coffee-news-style.css">
+    <link rel="stylesheet" href="css/coffee-contact-style.css">
   </head>
   <body>
     <!--1.導覽列主體  -->
     <header class="bg-warning" id="top">
       <nav class="navbar navbar-expand-lg navbar-light">
         <!--商標  -->
-        <a href="javascript:();" class="navbar-brand" title="Mark-Coffee-首頁超連結">
+        <a href="javascript:(void);" class="navbar-brand" title="Mark-Coffee-首頁超連結">
           <h1>
             <img src="images/Mark-Coffee-Shop-512x512-Removing-Bg.png" width="60" alt="Mark-Coffeef商標Logo" title="Mark-Coffee-Logo">
             Mark-Coffee
@@ -44,7 +44,7 @@
               <a href="coffee-about.html" class="nav-link disabled" title="關於Mark-Coffee超連結">關於Mark-Coffee</a>
             </li>
             <li class="nav-item">
-              <a href="coffee-news.html" class="nav-link active" title="Mark-Coffee最新消息超連結">最新消息</a>
+              <a href="coffee-news.html" class="nav-link" title="Mark-Coffee最新消息超連結">最新消息</a>
             </li>
         <!-- 下拉式選單 -->
             <li class="nav-item dropdown">
@@ -60,7 +60,7 @@
               <a href="coffee-store-location.html" class="nav-link disabled" title="Mark-coffee門市資訊超連結">門市資訊</a>
             </li>
             <li class="nav-item">
-              <a href="coffee-contact.html" class="nav-link" title="聯絡Mark-coffee超連結">聯絡Mark-Coffee</a>
+              <a href="coffee-contact.html" class="nav-link active" title="聯絡Mark-coffee超連結">聯絡Mark-Coffee</a>
             </li>
           </ul>
         </div>
@@ -115,65 +115,83 @@
     <section class="sectionbg1 mt-3">
       <h3 class="text-white text-center font-weight-bold sectionh3 d-none d-lg-block">sectionBG1</h3>
     </section>
-    <!-- 最新消息區 -->
-    <section class="mt-3 sectionbg3">
-        <div class="container">
+    <!-- 表單區 -->
+    <section class="mt-3 bg-info" id="formstyle">
+        <div class="container-fluid">
             <div class="row">
-                <!-- 最新消息 第一組 -->
-                <div class="col-12 col-lg-4">
-                    <div class="jumbotron bg-danger text-white text-center p-3 h-auto">
-                        <h3 class="display-4">精選單品咖啡豆&nbsp;・&nbsp;極品上市</h3>
-                        <p class="lead">下班後，在家中用研磨咖啡豆或即溶咖啡粉沖一杯咖啡，可說是一件相當愜意的事。Mark-Coffee為您準備大師精選的單品咖啡豆,等您來店挑選</p>
-                        <hr class="my-4">
-                        <p>大師精選系列</p>
-                        <p><i class="fas fa-tags"></i>&nbsp;&nbsp;定價$420／盒10入</p>
-                        <a class="btn btn-primary btn-lg btn-block" href="javascript:();" role="button">點我看更多</a>
-                    </div>                
+            <!-- 表單 第一組 填寫表單 -->
+                <div class="col-12 col-md-6 rounded p-3">
+                <h2 class="sectionh2">Mark-Coffee-表單填寫</h2>
+                    <form class="p-4 text-white">
+                        <!-- 姓名 -->
+                        <div class="form-group">
+                            <label for="username">姓名:</label>
+                            <input type="text" class="form-control" id="username" maxlength="60" placeholder="請輸入您的姓名">
+                        </div>
+                        <!-- 地址 -->
+                        <div class="form-group">
+                            <label for="address">地址:</label>
+                            <input type="text" class="form-control" id="address" maxlength="60" placeholder="請輸入您的郵寄地址">
+                        </div> 
+                        <!-- 聯絡電話  -->
+                        <div class="form-group">
+                            <label for="phonenumber">聯絡電話:</label>
+                            <input type="tel" class="form-control" id="phonenumber" maxlength="60" placeholder="請輸入您的連絡電話">
+                        </div>
+                        <!-- 電子郵件 -->
+                        <div class="form-group">
+                            <label for="email">電子郵件:</label>
+                            <input type="email" class="form-control" id="email maxlength="60" placeholder="請輸入您的電子郵件">
+                        </div>
+                        <!-- 問題和建議  -->
+                        <div class="form-group">
+                            <label for="textarea">對本網站的建議和問題:</label>
+                            <textarea class="form-control" id="textarea" rows="3" placeholder="請寫下您的建議"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button class="form-control btn btn-danger" id="button" rows="5">點我送出表單</button>
+                        </div>    
+                    </form>                
                 </div>
-                <!-- 最新消息 第二組 -->
-                <div class="col-12 col-lg-4">
-                    <div class="jumbotron bg-dark text-white text-center p-3 h-auto">
-                        <h3 class="display-4">2/1~2/28.年假獻禮</h3>
-                        <p class="lead">限Mark-Coffee手作咖啡專櫃供應,產品內容、價格、包裝、供應時間及口味均依照Mark-Coffee手作咖啡專櫃供應為準</p>
-                        <hr class="my-4">
-                        <p>卡布奇諾咖啡,第二杯半價</p>
-                        <p><i class="fas fa-tags"></i>&nbsp;&nbsp;定價$80／杯</p>
-                        <a class="btn btn-primary btn-lg btn-block" href="javascript:();" role="button">點我看更多</a>
-                    </div>                
-                </div>
-                <!-- 最新消息 第三組 -->
-                <div class="col-12 col-lg-4">
-                    <div class="jumbotron bg-success text-white text-center p-3 h-auto">
-                        <h3 class="display-4">幸福&nbsp;+&nbsp;蛋糕禮盒</h3>
-                        <p class="lead">不添加人工化學成分，不使用蛋糕常見的泡打粉、蘇打粉，以單純的作法，帶著青年們認真做好蛋糕。</p>
-                        <p class="lead">蘭姆酒蛋糕，有著微酒香和奶香混合，入口品嘗無限好滋味。</p>
-                        <hr class="my-4">
-                        <p>$兩件優惠幸福&nbsp;+&nbsp;蛋糕禮盒</p>
-                        <p><i class="fas fa-tags"></i>&nbsp;&nbsp;原價$&nbsp;<s>600</s>&nbsp;特價&nbsp;500</p>
-                        <a class="btn btn-primary btn-lg btn-block" href="javascript:();" role="button">點我看更多</a>
+            <!-- 表單 第二組 聯絡資訊 -->
+                <div class="col-12 col-md-6 rounded p-3">
+                <h2 class="sectionh2">Mark-Coffee-聯絡資訊</h2>
+                    <div class="p-4 text-white btn-dark">
+                        <p>
+                            <i class="fas fa-store-alt"></i>&nbsp;&nbsp;
+                            <span>地址:台南市東區-12121街-55454巷-545545弄-5555號</span>
+                        </p>
+                        <p>
+                            <i class="fas fa-mobile-alt"></i>&nbsp;&nbsp;
+                            <span>聯絡電話:06-1234-567</span>    
+                        </p>
+                        <p>
+                            <i class="fas fa-envelope"></i>&nbsp;&nbsp;
+                            <a href="mailto:mark-coffee@gmail.com">mark-coffee@gmail.com</a>    
+                        </p>
                     </div>                
                 </div>
             </div>
         </div>
-    </section>
+    </section> 
     <!-- 背景圖效果2 -->
     <section class="sectionbg2">
-      <h3 class="text-white text-center font-weight-bold sectionh3 d-none d-lg-block">sectionBG2</h3>
+        <h3 class="text-white text-center font-weight-bold sectionh3 d-none d-lg-block">sectionBG2</h3>
     </section>
-        <!-- 付款方式區 -->
+    <!-- 付款方式區 -->
     <section class="container-fluid badge-danger text-white text-justify p-4 mt-2" id="priceMethod">
         <h3>付款方式</h3>
         <p>消費者可先以信用卡、轉帳等方式先購買儲值金額，可依需求儲值500 元至100,000 元，結帳時輸入欲抵扣的儲值餘額，即可快速完成付款，省下輸入信用卡卡號或轉帳的時間，且不需負擔多次的轉帳費</p>
     </section>        
-  <!-- 頁尾 footer -->
-  <footer class="mt-3">
-    <div class="container-fluid text-center text-white bg-info Myposition p-5">
-        <p>Copyright&nbsp;&copy&nbsp;2019.4.29&nbsp;響應式網頁作品&nbsp;All rights reserved&nbsp;Bootstrap版本4.3</p>
-        <h3>
-          <a href="#top"><img src="https://upload.cc/i1/2019/03/03/XwP4zm.png" title="Back To Top" alt="Back To Top" /></a>
-        </h3>
-    </div>
-  </footer>
+    <!-- 頁尾 footer -->
+    <footer class="mt-3">
+      <div class="container-fluid text-center text-white bg-info Myposition p-5">
+          <p>Copyright&nbsp;&copy&nbsp;2019.4.29&nbsp;響應式網頁作品&nbsp;All rights reserved&nbsp;Bootstrap版本4.3</p>
+          <h3>
+            <a href="#top"><img src="https://upload.cc/i1/2019/03/03/XwP4zm.png" title="Back To Top" alt="Back To Top"/></a>
+          </h3>
+      </div>
+    </footer>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
