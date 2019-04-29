@@ -217,4 +217,5 @@ footer img {
     height: 50px;
     right: 20px;
     bottom: 10px;
+    z-index: 30;
 }
