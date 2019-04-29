@@ -203,8 +203,46 @@ nav {
 }
 
 /* 頁尾樣式 */
-footer {
+/* .footerlink a:link{
+    display: block;
+    padding: 10px;
+    color: rgb(54, 54, 54);
+    text-decoration: none;
+}
+.footerlink a:hover{
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgba(255, 2, 2, 0.5);
+    color: rgb(255, 255, 255);
+}
+.social-link > li > a{
     font-size: 2rem;
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    line-height: 0;
+    padding-top: 0.5rem;
+    text-align: center;
+    border-radius: 50%;
+    color:rgb(206, 23, 223);
+    margin: 0 0.2rem;
+}
+.social-link > li > a:hover{
+    font-size: 2rem;
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    line-height: 0;
+    padding-top: 0.5rem;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #ffffff;
+    color:rgb(206, 23, 223);
+    margin: 0 0.2rem;
+} */
+footer {
+    font-size: 1.5rem;
+    white-space: nowrap;
 }
 
 footer .Myposition {
